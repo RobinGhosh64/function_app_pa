@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "rghosh-cosmos-sql_DOCUMENTDB" : "AccountEndpoint=https://rghosh-cosmos-sql.documents.azure.com:443/;AccountKey=DKV8Iy87NaM6oeMRNUUj8PDQA9cHfDu6OauhacIuyZz3fkSdQOgmT2XCAA7nortIKivdwDe6GwRAQTn1cFunMQ==;"
+  }
+}

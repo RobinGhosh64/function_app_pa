@@ -1,0 +1,28 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "post"
+      ],
+      "route": "asset"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "outputDocument",
+      "databaseName": "admin",
+      "collectionName": "massets",
+      "createIfNotExists": false,
+      "connectionStringSetting": "rghosh-cosmos-sql_DOCUMENTDB",
+      "direction": "out"
+    }
+  ]
+}

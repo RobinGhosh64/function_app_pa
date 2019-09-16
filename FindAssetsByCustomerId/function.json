@@ -1,0 +1,29 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ],
+      "route": "asset/customer/{customer_id}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "ourassets",
+      "databaseName": "admin",
+      "collectionName": "massets",
+      "connectionStringSetting": "rghosh-cosmos-sql_DOCUMENTDB",
+      "direction": "in",
+      "sqlQuery": "select * from c where c.customer_id = {customer_id}"
+    }
+  ]
+}
