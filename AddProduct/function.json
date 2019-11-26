@@ -6,9 +6,9 @@
       "direction": "in",
       "name": "req",
       "methods": [
-        "post","get"
+        "post"
       ],
-      "route": "user/login"
+      "route": "product"
     },
     {
       "type": "http",
@@ -17,12 +17,12 @@
     },
     {
       "type": "cosmosDB",
-      "name": "ourUser",
+      "name": "outputDocument",
       "databaseName": "admin",
-      "collectionName": "musers",
+      "collectionName": "mproducts",
+      "createIfNotExists": false,
       "connectionStringSetting": "rghosh-cosmos-sql_DOCUMENTDB",
-      "sqlQuery": "select * from c where c.username = {username} and c.password = {password}",
-      "direction": "in"
+      "direction": "out"
     }
   ]
 }

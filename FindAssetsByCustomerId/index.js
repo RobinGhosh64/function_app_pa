@@ -1,7 +1,7 @@
 module.exports = async function (context, req) {
-    context.log('JavaScript HTTP trigger function processed a request.');
+    context.log('JavaScript HTTP trigger function FindAssetsByCustomerId called...');
 
-    context.log('Id=' + context.bindingData.customer_id);
+    context.log('customer_id=' + context.bindingData.customer_id);
     if (context.bindingData.customer_id) {
         context.res = {
             // status: 200, /* Defaults to 200 */
@@ -12,7 +12,7 @@ module.exports = async function (context, req) {
     else {
         context.res = {
             status: 400,
-            body: "Please pass a name on the query string or in the request body"
+            body: "Please pass customer_id on the query string or a param on the end-point!"
         };
     }
 };
