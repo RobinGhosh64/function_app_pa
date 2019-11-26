@@ -19,7 +19,7 @@
       "type": "cosmosDB",
       "name": "ourassets",
       "databaseName": "admin",
-      "collectionName": "massets",
+      "collectionName": "profiles",
       "connectionStringSetting": "rghosh-cosmos-sql_DOCUMENTDB",
       "direction": "in",
       "sqlQuery": "select * from c"

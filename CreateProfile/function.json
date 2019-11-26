@@ -8,7 +8,7 @@
       "methods": [
         "post"
       ],
-      "route": "asset"
+      "route": "profile/add"
     },
     {
       "type": "http",

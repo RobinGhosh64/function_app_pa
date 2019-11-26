@@ -13,6 +13,6 @@
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "WEBSITE_SITE_NAME": "shiva-app",
     "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=rsgappfunclates8953;AccountKey=I4LHzFwi+zYgDpCp1R5Jo8RKMZw4BEI5XWOf1MJ98YuXvuZ3Ghu3c/xZKfGkTvRJflM1NQJqsCvwMNAwIUrouw==",
-    "rghosh-cosmos-sql_DOCUMENTDB": "AccountEndpoint=https://rghosh-cosmos-sql.documents.azure.com:443/;AccountKey=DKV8Iy87NaM6oeMRNUUj8PDQA9cHfDu6OauhacIuyZz3fkSdQOgmT2XCAA7nortIKivdwDe6GwRAQTn1cFunMQ==;"
+    "rghosh-cosmos-sql_DOCUMENTDB": "AccountEndpoint=https://azurestay.documents.azure.com:443/;AccountKey=yskk2ZXE4sKoa42biPFts1CSBtuYYiylBRI7VqLGiWyKlOgNo97lUPvoWs9eUugjhcYMuNmf1ccnXxPP5pKM1w==;"
   }
 }

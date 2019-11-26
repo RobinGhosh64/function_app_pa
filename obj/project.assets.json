@@ -2199,7 +2199,7 @@
       ]
     },
     "Microsoft.Build.Framework/15.3.409": {
-      "sha512": "Kz+8UmEWbHAFzgYEp2OTlSUTkoRm+sXdDGl3PXKkEwLaW2OztycNCQurzUTG9sBSZLNIKatmh+yRcp/ZRdJY+w==",
+      "sha512": "+H11umzkkq46gMtgzmQ1JAVHEmZKmtMiPvi4YZiRPtmaGJC9xv8czMs8lHAL/W/wEnsv7SxD0UFNtNSdbpyvFA==",
       "type": "package",
       "path": "microsoft.build.framework/15.3.409",
       "files": [
@@ -2214,7 +2214,7 @@
       ]
     },
     "Microsoft.Build.Utilities.Core/15.3.409": {
-      "sha512": "7XbE8MxnWOURXcnE/IJ0g0zDQJkBQI9xuwPmN5IaP7WirAa87TEwzWiOlened5cgHBj1hHQMxJFyRQIqXcemaw==",
+      "sha512": "UVntU9ObJxbrPoycTTtt6cZHiSRTowXRMvjNLGzFECRU81p0NCEvguVt3A7tQEF2mOTvyUh/T21oaNhaWKtndQ==",
       "type": "package",
       "path": "microsoft.build.utilities.core/15.3.409",
       "files": [
@@ -2610,7 +2610,7 @@
       ]
     },
     "Microsoft.Win32.Registry/4.0.0": {
-      "sha512": "UiSp7lTxGtsF6J96wwErFeM0jygj/bWWKvbqwtRP2t6OohgT7TCTpjvQ1+7DLQLH3DR70i6+eRGX/y85WFuz1Q==",
+      "sha512": "q+eLtROUAQ3OxYA5mpQrgyFgzLQxIyrfT2eLpYX5IEPlHmIio2nh4F5bgOaQoGOV865kFKZZso9Oq9RlazvXtg==",
       "type": "package",
       "path": "microsoft.win32.registry/4.0.0",
       "files": [
@@ -3335,7 +3335,7 @@
       ]
     },
     "System.Diagnostics.Process/4.1.0": {
-      "sha512": "S2YC+MwpWZ6e7h2lqNce/ubMjD4vf2Ea/uOEncYNH1/fFXaXlKDM9ig/zCE1rR+wwYzE8FXtvj+1Nymh6oZ9bg==",
+      "sha512": "mpVZ5bnlSs3tTeJ6jYyDJEIa6tavhAd88lxq1zbYhkkCu0Pno2+gHXcvZcoygq2d8JxW3gojXqNJMTAshduqZA==",
       "type": "package",
       "path": "system.diagnostics.process/4.1.0",
       "files": [
@@ -5049,7 +5049,7 @@
       ]
     },
     "System.Resources.Reader/4.0.0": {
-      "sha512": "z4jEhuoUqwg/C3jAQNf/79vQe6OyD7D7M1hnoMT6D3kYWpg/cQ9g/5s2obRCrg+4DxaC/K3oA0fCsBUKRrygkw==",
+      "sha512": "VX1iHAoHxgrLZv+nq/9drCZI6Q4SSCzSVyUm1e0U60sqWdj6XhY7wvKmy3RvsSal9h+/vqSWwxxJsm0J4vn/jA==",
       "type": "package",
       "path": "system.resources.reader/4.0.0",
       "files": [
@@ -5628,7 +5628,7 @@
       ]
     },
     "System.Runtime.Serialization.Xml/4.1.1": {
-      "sha512": "J47affYgM/98k14wFySyvsymOFyiD/RCollwjX62giAil42VSAzQHEpEeHxAtmyqVoCjjpxxmGv9LXZNQ+23ew==",
+      "sha512": "yqfKHkWUAdI0hdDIdD9KDzluKtZ8IIqLF3O7xIZlt6UTs1bOvFRpCvRTvGQva3Ak/ZM9/nq9IHBJ1tC4Ybcrjg==",
       "type": "package",
       "path": "system.runtime.serialization.xml/4.1.1",
       "files": [
@@ -6543,7 +6543,7 @@
       ]
     },
     "System.Threading.Thread/4.0.0": {
-      "sha512": "nuUpkup2FbB4Xf62nwWARtm1wQ457fEyR9KvLsCzBSj1yQTtKuqmlSgw/e6aiwB3CiUEAUbZ1IgEvza/m2SYxA==",
+      "sha512": "gIdJqDXlOr5W9zeqFErLw3dsOsiShSCYtF9SEHitACycmvNvY8odf9kiKvp6V7aibc8C4HzzNBkWXjyfn7plbQ==",
       "type": "package",
       "path": "system.threading.thread/4.0.0",
       "files": [
@@ -6583,7 +6583,7 @@
       ]
     },
     "System.Threading.ThreadPool/4.0.10": {
-      "sha512": "dupLOpVBSXb3G/Ab9utLVbOYxZ+hnq5ExVz6Dk9CBlzXm6Znw1GAIOv5HEjlkECZJz40I8zhhxaJHWVsWO484Q==",
+      "sha512": "IMXgB5Vf/5Qw1kpoVgJMOvUO1l32aC+qC3OaIZjWJOjvcxuxNWOK2ZTWWYXfij22NHxT2j1yWX5vlAeQWld9vA==",
       "type": "package",
       "path": "system.threading.threadpool/4.0.10",
       "files": [
@@ -6858,30 +6858,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\roghos\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/manip/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roghos\\springboot\\function_app_pa\\extensions.csproj",
+      "projectUniqueName": "/Users/manip/src/azurepoc/function_app_pa/extensions.csproj",
       "projectName": "extensions",
-      "projectPath": "C:\\Users\\roghos\\springboot\\function_app_pa\\extensions.csproj",
-      "packagesPath": "C:\\Users\\roghos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roghos\\springboot\\function_app_pa\\obj\\",
+      "projectPath": "/Users/manip/src/azurepoc/function_app_pa/extensions.csproj",
+      "packagesPath": "/Users/manip/.nuget/packages/",
+      "outputPath": "/Users/manip/src/azurepoc/function_app_pa/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\roghos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/manip/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6909,10 +6903,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }
