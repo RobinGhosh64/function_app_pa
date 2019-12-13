@@ -13,7 +13,7 @@
   "FUNCTIONS_WORKER_RUNTIME": "node",
     "WEBSITE_SITE_NAME": "shiva-app",
     "AzureWebJobsStorage": "PLEASE FILL",
-    "rghosh-cosmos-sql_DOCUMENTDB": "PLEASE FILL"
+    "rghosh-cosmos-sql_DOCUMENTDB": "PLEASE FILL 1"
 
   }
 }
