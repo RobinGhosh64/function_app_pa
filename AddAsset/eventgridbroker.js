@@ -5,7 +5,7 @@ var url = require('url');
 
 
 // TODO: Enter value for topicKey
-let topicKey = '9AGbTnSHXqCMnMNjmNjUgIcT2iMYlOuoAsHVyDwPfVQ=';
+let topicKey = 'Fill up';
 // TODO: Enter value for topic-endpoint
 let topicEndPoint = 'https://rsg-topic.westus2-1.eventgrid.azure.net/api/events';
 
