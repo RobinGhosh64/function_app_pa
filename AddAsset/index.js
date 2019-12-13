@@ -4,15 +4,16 @@ module.exports = async function (context, req) {
     * Event Grid topic is used to send to a logic app
     */
 
-    var aguid = require('aguid');
-    var JWT   = require('jsonwebtoken');
-    var broker = require('./eventgridbroker');
-    broker.sendTransaction(null,'POC.Asset.Add', req.body);
+    
+    //var broker = require('./eventgridbroker');
+    var httpbroker = require('../Utilities/httpbroker');
+   // broker.sendTransaction(null,'POC.Asset.Add', req.body);
 
     // context.bindings.outputDocument = JSON.stringify(req.body);
+    var resp=httpbroker.callHttpGet('https://rsg-webapp-tcc3.azurewebsites.net/documentation', null, null);
     context.res = {
         status: 200,
-        body: "ok"
+        body: resp
     };
     
 };
