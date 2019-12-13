@@ -1,18 +1,38 @@
+
 {
+
   "IsEncrypted": false,
+
   "Values": {
+
     "WEBSITE_SLOT_NAME": "Production",
+
     "FUNCTIONS_EXTENSION_VERSION": "~2",
+
     "ScmType": "None",
-    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=rsgappfunclates8953;AccountKey=I4LHzFwi+zYgDpCp1R5Jo8RKMZw4BEI5XWOf1MJ98YuXvuZ3Ghu3c/xZKfGkTvRJflM1NQJqsCvwMNAwIUrouw==",
-    "WEBSITE_NODE_DEFAULT_VERSION": "8.11.1",
-    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=rsgappfunclates8953;AccountKey=I4LHzFwi+zYgDpCp1R5Jo8RKMZw4BEI5XWOf1MJ98YuXvuZ3Ghu3c/xZKfGkTvRJflM1NQJqsCvwMNAwIUrouw==",
-    "WEBSITE_CONTENTSHARE": "rsg-function-app-1016-content-6f28",
+
+    "AzureWebJobsDashboard": "",
+
+ "WEBSITE_NODE_DEFAULT_VERSION": "8.11.1",
+
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "",
+
+   "WEBSITE_CONTENTSHARE": "rsg-function-app-1016-content-6f28",
+
     "WEBSITE_AUTH_ENABLED": "False",
-    "rsgblobstorage_STORAGE": "DefaultEndpointsProtocol=https;AccountName=rsgblobstorage;AccountKey=T0UfXP1YFCe58oqVD1MJmqH6RuXLDJDCn27TalTOdl/YT9KU4YRTPrWa7ZQsixB+laTi79Vo4W/uckRUO/TcIQ==",
-    "FUNCTIONS_WORKER_RUNTIME": "node",
+
+    "rsgblobstorage_STORAGE": "",
+
+  "FUNCTIONS_WORKER_RUNTIME": "node",
+
     "WEBSITE_SITE_NAME": "shiva-app",
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=rsgappfunclates8953;AccountKey=I4LHzFwi+zYgDpCp1R5Jo8RKMZw4BEI5XWOf1MJ98YuXvuZ3Ghu3c/xZKfGkTvRJflM1NQJqsCvwMNAwIUrouw==",
-    "rghosh-cosmos-sql_DOCUMENTDB": "AccountEndpoint=https://azurestay.documents.azure.com:443/;AccountKey=yskk2ZXE4sKoa42biPFts1CSBtuYYiylBRI7VqLGiWyKlOgNo97lUPvoWs9eUugjhcYMuNmf1ccnXxPP5pKM1w==;"
+
+    "AzureWebJobsStorage": "PLEASE FILL",
+
+    "rghosh-cosmos-sql_DOCUMENTDB": "PLEASE FILL"
+
+
+
   }
+
 }
